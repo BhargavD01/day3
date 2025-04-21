@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Store Style Button</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .app-button {
+      padding: 10px 20px;
+      background-color: #f4f4f4;
+      color: #555;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .app-button:hover {
+      background-color: #e0e0e0;
+      transform: translateY(-1px);
+    }
+
+    .app-button:active {
+      transform: translateY(1px);
+    }
+  </style>
+</head>
+<body>
+
+  <button class="app-button">Download Now</button>
+
+</body>
+</html>
